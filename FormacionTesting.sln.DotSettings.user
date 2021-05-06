@@ -2,5 +2,6 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ace95dc9_002Dda2b_002D4429_002Dbf4e_002D70392e602c35/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Apply_Test" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::BF5B52B7-C333-424D-98BB-F1EB30356E6C::.NETCoreApp,Version=v3.1::TestingProject.JobServiceTests.Apply_Test_ExpectedBehaviour&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::BF5B52B7-C333-424D-98BB-F1EB30356E6C::.NETCoreApp,Version=v3.1::TestingProject.JobServiceTests.Apply_Test_Throws_ApplicationNotApplicableException&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
