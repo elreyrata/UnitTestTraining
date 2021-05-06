@@ -51,6 +51,7 @@ namespace ProjectUnderTest.Services
             return offer;
         }
 
+        // TODO: TEST
         public Person Hire(JobOffer offer, Person person)
         {
             offer.Applicable = false;
