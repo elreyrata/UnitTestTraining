@@ -1,0 +1,11 @@
+C:\Users\curro\Desktop\C#\FormacionTesting\ProjectUnderTest\bin\Debug\netcoreapp3.1\ProjectUnderTest.exe
+C:\Users\curro\Desktop\C#\FormacionTesting\ProjectUnderTest\bin\Debug\netcoreapp3.1\ProjectUnderTest.deps.json
+C:\Users\curro\Desktop\C#\FormacionTesting\ProjectUnderTest\bin\Debug\netcoreapp3.1\ProjectUnderTest.runtimeconfig.json
+C:\Users\curro\Desktop\C#\FormacionTesting\ProjectUnderTest\bin\Debug\netcoreapp3.1\ProjectUnderTest.runtimeconfig.dev.json
+C:\Users\curro\Desktop\C#\FormacionTesting\ProjectUnderTest\bin\Debug\netcoreapp3.1\ProjectUnderTest.dll
+C:\Users\curro\Desktop\C#\FormacionTesting\ProjectUnderTest\bin\Debug\netcoreapp3.1\ProjectUnderTest.pdb
+C:\Users\curro\Desktop\C#\FormacionTesting\ProjectUnderTest\obj\Debug\netcoreapp3.1\ProjectUnderTest.csprojAssemblyReference.cache
+C:\Users\curro\Desktop\C#\FormacionTesting\ProjectUnderTest\obj\Debug\netcoreapp3.1\ProjectUnderTest.AssemblyInfoInputs.cache
+C:\Users\curro\Desktop\C#\FormacionTesting\ProjectUnderTest\obj\Debug\netcoreapp3.1\ProjectUnderTest.AssemblyInfo.cs
+C:\Users\curro\Desktop\C#\FormacionTesting\ProjectUnderTest\obj\Debug\netcoreapp3.1\ProjectUnderTest.dll
+C:\Users\curro\Desktop\C#\FormacionTesting\ProjectUnderTest\obj\Debug\netcoreapp3.1\ProjectUnderTest.pdb
