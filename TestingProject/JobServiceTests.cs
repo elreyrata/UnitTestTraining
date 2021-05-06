@@ -25,27 +25,11 @@ namespace TestingProject
         public void Apply_Test_ExpectedBehaviour()
         {
             // Arrange
-            var offer = new JobOffer()
-            {
-                Applicable = true,
-                TargetJob = new Job()
-                {
-                    Sector = Sector.Engineering
-                }
-            };
-            
-            var applicant = new Person()
-            {
-                Sector = Sector.Engineering
-            };
             
             // Act
-            var response = _service.Apply(offer, applicant);
 
             // Assert
-            Assert.NotNull(response);
-            Assert.Equal(applicant, response.Applicant);
-            Assert.Equal(offer, response.Offer);
+            
         }
     }
 }
