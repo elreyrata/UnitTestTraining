@@ -38,54 +38,22 @@ namespace TestingProject
         public void Apply_Test_Throws_ApplicationNotApplicableException()
         {
             // Arrange
-            var offer = new JobOffer()
-            {
-                Applicable = false,
-                TargetJob = new Job()
-                {
-                    Sector = Sector.Engineering
-                }
-            };
-            
-            var applicant = new Person()
-            {
-                Sector = Sector.Engineering
-            };
             
             // Act
-            var act = new Func<Application>(() => _service.Apply(offer, applicant));
 
             // Assert
-            var exception = Assert.Throws<ApplicationNotApplicableException>(act);
-            Assert.NotNull(exception);
-            Assert.Equal("Cannot apply when not applicable", exception.Message);
+            
         }
         
         [Fact]
         public void Apply_Test_Throws_ApplicationSectorMismatchException()
         {
             // Arrange
-            var offer = new JobOffer()
-            {
-                Applicable = true,
-                TargetJob = new Job()
-                {
-                    Sector = Sector.Engineering
-                }
-            };
-            
-            var applicant = new Person()
-            {
-                Sector = Sector.Art
-            };
             
             // Act
-            var act = new Func<Application>(() => _service.Apply(offer, applicant));
 
             // Assert
-            var exception = Assert.Throws<ApplicationSectorMismatchException>(act);
-            Assert.NotNull(exception);
-            Assert.Equal("Applicant sector does not match offer", exception.Message);
+            
         }
     }
 }
