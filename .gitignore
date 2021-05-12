@@ -1,4 +1,6 @@
 .idea
-TestingProject/bin/
-TestingProject/obj/
-
+TestingProject/bin/**
+TestingProject/obj/**
+ProjectUnderTest/bin/**
+ProjectUnderTest/obj/**
+FormacionTesting.sln.DotSettings.user
