@@ -37,7 +37,13 @@ namespace ProjectUnderTest.Services
             
             // TODO: NEW FEATURE 
             // PERSON CANNOT APPLY IF ALREADY HAD APPLIED
-
+            var applications = _applicationRepository.GetPersonApplications(applicant);
+            var offers = applications.Select(x => x.Offer);
+            if (offers.Contains(offer))
+            {
+                throw new AlreadyAppliedOfferException();
+            }
+            
             return new Application()
             {
                 Applicant = applicant,
@@ -59,7 +65,7 @@ namespace ProjectUnderTest.Services
             
             if (lastJob != null)
             {
-                person.PastJobs.ToList().Add(lastJob);
+                person.PastJobs = person.PastJobs.Append(lastJob);
             }
 
             person.ActualJob = offer.TargetJob;
